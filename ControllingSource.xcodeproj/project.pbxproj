@@ -112,11 +112,7 @@
 		5919C25C1907F065004CCCFB /* ControllingSource */ = {
 			isa = PBXGroup;
 			children = (
-				5919C2651907F065004CCCFB /* AppDelegate.h */,
-				5919C2661907F065004CCCFB /* AppDelegate.m */,
-				5919C2681907F065004CCCFB /* Main.storyboard */,
-				5919C26B1907F065004CCCFB /* ViewController.h */,
-				5919C26C1907F065004CCCFB /* ViewController.m */,
+				59B53D691908D2930066E118 /* resources */,
 				5919C26E1907F065004CCCFB /* Images.xcassets */,
 				5919C25D1907F065004CCCFB /* Supporting Files */,
 			);
@@ -150,6 +146,18 @@
 				5919C27E1907F065004CCCFB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59B53D691908D2930066E118 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5919C2651907F065004CCCFB /* AppDelegate.h */,
+				5919C2661907F065004CCCFB /* AppDelegate.m */,
+				5919C2681907F065004CCCFB /* Main.storyboard */,
+				5919C26B1907F065004CCCFB /* ViewController.h */,
+				5919C26C1907F065004CCCFB /* ViewController.m */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,6 +464,7 @@
 				5919C2871907F065004CCCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5919C2881907F065004CCCFB /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				5919C28A1907F065004CCCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
